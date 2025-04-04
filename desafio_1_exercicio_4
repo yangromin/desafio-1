@@ -1,0 +1,23 @@
+#entrada de dados
+
+num =[]
+n = 1
+
+
+
+#processamento 
+for i in range (10):
+    num.append(int(input(f"informe o {n}o. Valor: ")))
+    n += 1
+   
+    
+
+# Saida de dados 
+print('\nlista em ordem crescente')
+print(num)
+print(f'A soma é {sum(num)}')
+print(f'A média é {sum(num) / len(num)}')
+print(f'o maior valor encontrado foi:{max(num)}')
+print(f'o menor valor encontrado foi:{min(num)}')
+
+
