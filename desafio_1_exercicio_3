@@ -1,0 +1,18 @@
+#entrada de dados 
+soma = 0
+contador = 0
+num =[]
+
+quant = float(input('Digite a quantidade de temperaturas desajadas para calcular a média: '))
+
+#processamento
+while contador < quant:
+    num.append(float(input(f'Digite o número {contador + 1}: ')))
+    contador += 1
+
+
+
+#saida de dados 
+print(f'A temperatura média do local é: {sum(num) / len(num)}')
+print(f'A maior temperatura registrada foi:{max(num)}')
+print(f'A menor temperatura registrada foi:{min(num)}')
